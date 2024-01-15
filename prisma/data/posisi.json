@@ -1,0 +1,65 @@
+[
+    {
+        "nama": "Programmer",
+        "kuota": 10,
+        "kuota_tersedia": 10,
+        "prasyarat": {
+            "data": ["Memiliki kemampuan komunikasi dan bahasa inggris basic","Memiliki kreatifitas", "inovatif dan inisiatif tinggi","Dapat bekerjasama dengan tim"]
+        },
+        "is_active": true
+    },
+    {
+        "nama": "Implementator",
+        "kuota": 10,
+        "kuota_tersedia": 10,
+        "prasyarat": {
+            "data": ["Memiliki kemampuan komunikasi dan bahasa inggris basic","Memiliki kreatifitas", "inovatif dan inisiatif tinggi","Dapat bekerjasama dengan tim"]
+        },
+        "is_active": true
+    },
+    {
+        "nama": "Sistem Analyst",
+        "kuota": 10,
+        "kuota_tersedia": 10,
+        "prasyarat": {
+            "data": ["Memiliki kemampuan komunikasi dan bahasa inggris basic","Memiliki kreatifitas", "inovatif dan inisiatif tinggi","Dapat bekerjasama dengan tim"]
+        },
+        "is_active": true
+    },
+    {
+        "nama": "Marketing",
+        "kuota": 10,
+        "kuota_tersedia": 10,
+        "prasyarat": {
+            "data": ["Memiliki kemampuan komunikasi dan bahasa inggris basic","Memiliki kreatifitas", "inovatif dan inisiatif tinggi","Dapat bekerjasama dengan tim"]
+        },
+        "is_active": true
+    },
+    {
+        "nama": "Videographer",
+        "kuota": 10,
+        "kuota_tersedia": 10,
+        "prasyarat": {
+            "data": ["Memiliki kemampuan komunikasi dan bahasa inggris basic","Memiliki kreatifitas", "inovatif dan inisiatif tinggi","Dapat bekerjasama dengan tim"]
+        },
+        "is_active": true
+    },
+    {
+        "nama": "Content Creator",
+        "kuota": 10,
+        "kuota_tersedia": 10,
+        "prasyarat": {
+            "data": ["Memiliki kemampuan komunikasi dan bahasa inggris basic","Memiliki kreatifitas", "inovatif dan inisiatif tinggi","Dapat bekerjasama dengan tim"]
+        },
+        "is_active": true
+    },
+    {
+        "nama": "Desain Grafis",
+        "kuota": 10,
+        "kuota_tersedia": 10,
+        "prasyarat": {
+            "data": ["Memiliki kemampuan komunikasi dan bahasa inggris basic","Memiliki kreatifitas", "inovatif dan inisiatif tinggi","Dapat bekerjasama dengan tim"]
+        },
+        "is_active": true
+    }
+]

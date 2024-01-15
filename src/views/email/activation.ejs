@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smart Internship - Activation Email</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        color: #333333;
+        font-size: larger;
+        font-weight: bold;
+        max-width: 600px;
+        padding: 10px;
+        color: #333333;
+        text-align: center;
+      }
+
+      .footer {
+        border-radius: 5px;
+        color: white;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #eb2027;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .welcome {
+        color: #333333;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .title {
+        color: #333333;
+      }
+
+      p {
+        color: #666666;
+        line-height: 1.5;
+        margin-bottom: 30px;
+      }
+
+      .otp {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        text-align: center;
+        color: #333333;
+      }
+
+      .button {
+        display: inline-block;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Smart Internship App</h2>
+      <hr />
+      <h2 class="welcome" style="margin-top: 20px; text-align: left">
+        Hai <%= user.name %>,
+      </h2>
+      <p>
+        Selamat datang di Aplikasi Smart Internship! Untuk mengaktifkan akun
+        Anda, silakan gunakan OTP berikut:
+      </p>
+      <div class="otp"><%= otp %></div>
+      <p>
+        Jika Anda tidak melakukan permintaan aktivasi ini, harap abaikan email
+        ini.
+      </p>
+      <p>Terima kasih</p>
+      <p>
+        Salam Hangat,<br />
+        PT Garuda Cyber Indonesia
+      </p>
+      <div class="footer">
+        <div
+          style="font-size: medium; padding-bottom: 10px; text-align: center"
+        >
+          Butuh Bantuan?
+        </div>
+        <div style="font-size: x-small; text-align: center">
+          Anda dapat menghubungi admin di 0811-767-4727 atau
+          admin@garudacyber.co.id.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

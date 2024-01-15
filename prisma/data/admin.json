@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Rezki Nasrullah",
+        "email": "rezki@gmail.com",
+        "password": "12345678",
+        "role": "SUPERADMIN",
+        "activation": true
+    },
+    {
+        "name": "Admin",
+        "email": "admin@gmail",
+        "password": "12345678",
+        "role": "ADMIN",
+        "activation": true
+    }
+]
